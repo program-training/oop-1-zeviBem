@@ -1,24 +1,16 @@
 // את הקוד שלכם תכתבו כאן
-
 //  1. Rectangle - מלבן
-class Rectangle {
-    width: number;
-    hight: number;
-
-    constructor(width: number, hight: number) {
+var Rectangle = /** @class */ (function () {
+    function Rectangle(width, hight) {
         this.width = width;
         this.hight = hight;
     }
-    area(): number {
-        return (this.width * this.hight) / 2
-    }
-}
-
+    Rectangle.prototype.area = function () {
+        return (this.width * this.hight) / 2;
+    };
+    return Rectangle;
+}());
 //  2. Square - ריבוע
-
-
 // 3. Shape - צורה
-
 // 4. Method Chaining
-
 // 5. Shape with draw method
