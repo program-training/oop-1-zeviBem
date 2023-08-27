@@ -12,9 +12,13 @@ class Rectangle {
     area(): number {
         return (this.width * this.hight) / 2
     }
+    
 }
 
 //  2. Square - ריבוע
+class Square extends Rectangle {
+    
+}
 
 
 // 3. Shape - צורה
